@@ -32,6 +32,7 @@ export default class Hello2WebPart extends BaseClientSideWebPart<IHello2WebPartP
               <span class="${ styles.title }">Welcome to SharePoint!</span>
               <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
+              <p class="${ styles.textField }">${escape(this.properties.test)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
                 <span class="${ styles.label }">Learn more</span>
               </a>

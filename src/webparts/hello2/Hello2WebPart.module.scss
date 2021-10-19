@@ -37,6 +37,11 @@
     @include ms-fontColor-white;
   }
 
+  .textField {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
   .button {
     // Our button
     text-decoration: none;
